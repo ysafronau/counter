@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+main {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.count {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  font-size: 20px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.btn:hover {
+  color: #222;
+  background-color: #fff;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
